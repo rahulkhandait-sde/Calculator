@@ -4,7 +4,7 @@
 
 # Calculator: Makes Your Life Easier
 
-This project is a simple calculator that can be used to perform basic mathematical operations. It is made with **HTML, CSS, and JavaScript*** and it is easy to use. The calculator has a clean and modern design, and it is suitable for everyone.
+This project is a simple calculator that can be used to perform basic mathematical operations. It is made with **HTML, CSS, and JavaScript** and it is easy to use. The calculator has a clean and modern design, and it is suitable for everyone.
 
 ## Tech Stack
 
