@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +12,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(45deg, #0a0a0a, #3a4452); */
+    background: linear-gradient(45deg, #0a0a0a, #3f1010);
     background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
+}
+
+.calculator-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    /* border-radius: 16px; */
+    /* box-shadow: 0px 3px 15px rgba(254, 254, 255, 0.5); */
+    color: #ffffff;
+}
+
+.calculator-header i{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.calculator-header h1{
+    font-size: 50px;
+    margin-left: 10px;
+    font-family: 'Handjet';
 }
 
 .calculator{
@@ -20,6 +44,7 @@ body{
     border-radius: 16px;
     background: transparent;
     box-shadow: 0px 3px 15px rgba(254, 254, 255, 0.5);
+    background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
 }
 
 input{
@@ -68,6 +93,6 @@ button:hover{
 }
 
 .operator{
-    color: #8dfd04;
+    color: #f1fd04;
 }
 
