@@ -43,7 +43,7 @@ body{
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(254, 254, 255, 0.5);
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
     background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
 }
 
@@ -59,7 +59,8 @@ input{
     color: #fff;
     border-radius: 16px;
     box-shadow: 0px 3px 15px rgba(187, 193, 204, 0.5);
-    margin: auto;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
 input::placeholder{
@@ -68,6 +69,7 @@ input::placeholder{
 
 input:focus{
     outline: none;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.8);
 }
 
 button{
@@ -85,7 +87,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.6);
+    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
 }
 
 .equal-btn{
