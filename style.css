@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3f1010);
-    background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    /* background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12); */
 }
 
 .calculator-header{
@@ -22,8 +22,6 @@ body{
     align-items: center;
     margin-right: 10px;
     margin-bottom: 20px;
-    /* border-radius: 16px; */
-    /* box-shadow: 0px 3px 15px rgba(254, 254, 255, 0.5); */
     color: #ffffff;
 }
 
@@ -43,8 +41,9 @@ body{
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
     background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
+    box-shadow: inset 3px 3px 15px #000,
+            inset -3px -3px 15px #000;
 }
 
 input{
@@ -52,13 +51,13 @@ input{
     border: none;
     padding: 24px;
     background-color: transparent;
-    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    box-shadow: inset 3px 3px 20px rgb(0, 0, 0),
+    inset -3px -3px 20px rgb(0, 0, 0);
     font-size: 40px;
     text-align: right !important;
     cursor: pointer;
     color: #fff;
     border-radius: 16px;
-    box-shadow: 0px 3px 15px rgba(187, 193, 204, 0.5);
     margin-left: 0.3rem;
     margin-bottom: 0.5rem;
 }
@@ -69,7 +68,6 @@ input::placeholder{
 
 input:focus{
     outline: none;
-    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.8);
 }
 
 button{
@@ -81,20 +79,22 @@ button{
     background-color: transparent;
     color: #fff;
     font-size: 20px;
-    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 2px 2px 6px rgb(40, 27, 27),
+            inset -2px -2px 6px ;
     cursor: pointer;
     
 }
 
 button:hover{
-    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 12px rgb(40, 27, 27),
+            -2px -2px 12px;
 }
 
 .equal-btn{
-    background-color: #d47c18;
+    background-color: #ff8800;
 }
 
 .operator{
-    color: #f1fd04;
+    color: #b8ff1de0;
 }
 
