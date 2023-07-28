@@ -44,6 +44,7 @@ body{
     background-image: linear-gradient(to top, #051937, #572b5e, #ab3a61, #e36644, #ebae12);
     box-shadow: inset 3px 3px 15px #000,
             inset -3px -3px 15px #000;
+    filter: saturate(2);
 }
 
 input{
