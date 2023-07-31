@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/rahulkhandait-sde/rahulkhandait-sde/raw/main/YouTube_Banner_3.png)
+![Logo](https://github.com/rahulkhandait-sde/rahulkhandait-sde/blob/main/Banner.png)
 
 
 # Calculator: Makes Your Life Easier
