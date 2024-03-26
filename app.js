@@ -12,7 +12,7 @@ arr.forEach((button) => {
 
 		if (currentInput === '=') {
 			if (!lastInputIsOperator) {
-				string = eval(string);
+				string = eval(string.replace('%', '/100'));
 				input.value = string;
 			}
 		} else if (currentInput === 'AC') {
